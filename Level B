@@ -1,0 +1,515 @@
+\documentclass[a4paper, 11pt]{report}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{fix-cm}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+\usepackage[english]{babel}
+
+\geometry{ margin=30mm }
+\counterwithin{subsection}{section}
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand\thesubsection{\thesection\arabic{subsection}.}
+\usepackage{tocloft}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\setlength{\cftsecindent}{2.2em}
+\setlength{\cftsubsecindent}{4.2em}
+\setlength{\cftsecnumwidth}{2em}
+\setlength{\cftsubsecnumwidth}{2.5em}
+
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+\begin{document}
+\titleformat{\section}
+{\normalfont\fontsize{15}{0}\bfseries}{\thesection}{1em}{}
+\titlespacing{\section}{0cm}{0.5cm}{0.15cm}
+\titleformat{\subsection}
+{\normalfont\fontsize{13}{0}\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing{\section}{0cm}{0.5cm}{0.15cm}
+
+%=============================================================================
+
+\pagenumbering{Alph}
+\begin{titlepage}
+\begin{flushright}
+\includegraphics[width=4cm]{USyd}\\[2cm]
+\end{flushright}
+\center 
+\textbf{\huge INFO1111: Computing 1A Professionalism}\\[0.75cm]
+\textbf{\huge 2023 Semester 1}\\[2cm]
+\textbf{\huge Self-Learning Report}\\[3cm]
+
+\textbf{\huge Submission number: ??}\\[0.75cm]
+\textbf{Github link: ??}\\[2cm]
+
+{\large
+\begin{tabular}{|p{0.35\textwidth}|p{0.55\textwidth}|}
+	\hline
+	{\bf Student name} & ??\\
+	{\bf Student ID} & ??\\
+	{\bf Topic} & ?? \textit{Note: This must be the same as was in your topic approval}\\
+	{\bf Levels already achieved} & ??\\
+	{\bf Levels in this report} & ??\\
+	\hline
+\end{tabular}
+}
+\thispagestyle{empty}
+\end{titlepage}
+\pagenumbering{arabic}
+
+
+%=============================================================================
+
+\tableofcontents
+
+%=============================================================================
+
+\newpage
+\section*{Instructions}
+
+\textbf{Important}: This section should be removed prior to submission.
+
+You should use this \LaTeX\ template to generate your self-learning report. Keep in mind the following key points:
+\begin{itemize}
+	\item \textbf{Submissions}: There will be three opportunities during the semester to submit this report. For each submission you can attempt 1 or 2 levels. Each submission should use the same report, but amended to include new information.
+	\item \textbf{Assessment}: In order to achieve level B, you must first have achieved level A, and so on for each level up to level D. This means that we will not assess a higher level until a lower level has been achieved (though we will review one level higher and give you feedback to help you in refining your work).
+	\item \textbf{Minimum requirement}: Remember that in order to pass the unit, you must achieve at least level A in the self-learning (unless you achieve level B in both the skills and knowledge categories).
+	\item \textbf{Using this template}: When completing each section you should remove the explanation text and replace it with your material.
+	\item \textbf{Referencing}: You should also ensure that any resources you use are suitably referenced, and references are included into the reference list at the end of this document. You should use the IEEE reference style \cite{usyd2} (the reference included here shows you how this can be easily achieved).
+\end{itemize}
+
+
+%=============================================================================
+
+
+\newpage
+\section{Level A: Initial Understanding}
+\vspace{5mm}
+\subsection{Level A Demonstration}
+List the three things you will do to demonstrate your understanding of this topic.
+\textit{Note: This must be the same as was in your topic approval}
+\newline
+\newline
+In level A, I will install a compiler for HTML, CSS, and JavaScript first. Then I will learn HTML, CSS, and JavaScript online and understand what their roles are in building webpages. After learning basic language grammar, I will try to compile an existing simple webpage and modify some elements by myself to make it still work.
+\subsection{Learning Approach}
+How did you approach your learning? Write 100 - 200 words outlining the steps you took and/or are taking to self-learn the topic you have selected.
+\newline
+\newline
+The compiler I chose was Visual Studio Code since it is popular and easy to use. To learn the language, I decide to go to a website, W3Schools, which provides a lot of resources for programming language learners. It also allows learner to compile examples in real time, which helped me a lot. What’s more, there are many comprehensive tutorials on YouTube, which are also useful resources for learning. After self-learning online, I download a simple webpage example from GitHub, compiled it using Visual Studio Code, and modified it by myself to make it can be still successfully compiled. For example, I added some data using form and changed font size and style using CSS.
+
+\subsection{Challenges and Difficulties}
+What did you find most difficult? Write 100 - 200 words discussing what you have or are finding most challenging about self-learning the topic you have selected (e.g. are there any elements of the topic you have found more difficult to learn than others etc.).
+\newline
+\newline
+The most difficult part for me is to understand how HTML, CSS, and JavaScript work together to make a webpage. They have different grammar and different functions. Thus, I have to learn them separately to fully understand their functions first, and then try to understand how to put them together in a same webpage. There were also lots of things need to be memorized while learning grammar, and when I modified the HTML file, a lot of errors occurred. To solve these problems, I looked the relative examples from W3Schools carefully, and watched several tutorials on YouTube. By repeatedly learning online and writing code by myself. I had a better understanding of how a simple webpage work.
+
+\subsection{Learning Sources}
+Learning Source - What source did you use? (Note: Include source details such as links to websites, videos etc.).	Contribution to Learning - How did the source contribute to your learning (i.e. what did you use the source for)?
+
+\begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
+	\hline
+	Learning Source - What source did you use? (Note: Include source details such as links to websites, videos etc.). & Contribution to Learning - How did the source contribute to your learning (i.e. what did you use the source for)?\\
+	\hline
+        W3School
+        \newline
+	https://www.w3schools.com/html & learn grammar by example\\
+	\hline
+        YouTube Tutorial.
+        \newline
+	https://www.youtube.com/watch?v
+        \newline=qz0aGYrrlhU.& learn language as well as how to compile.\\
+	\hline
+        YouTube Tutorial
+        \newline
+	https://www.youtube.com/watch?v
+        \newline
+        =_GTMOmRrqkU & learn how HTML, CSS, and JavaScript work together\\
+	\hline
+	 & \\
+	\hline
+	 & \\
+	\hline
+\end{tabular}
+
+\subsection{Application artifacts}
+Include here a description of what you actually created (what does it do? How does it work? How did you create it?). Include any code or other related artefacts that you created (these should also be included in your github repository).
+\newline
+\newline
+After looking some examples from W3School, I created a simple HTML page and used CSS to style the font and color of text. It is just a simple demonstration of using some HTML elements. The elements I used include image, bulleted list, hyperlink, header, and footer.
+\newline
+Code:
+\newline
+\begin{verbatim}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+  </head>
+  <style>
+    header {
+      background-color: rgb(27, 6, 64);
+      padding: 10px;
+      text-align: center;
+      font-size: 20px;
+      color: white;
+    }
+
+    footer {
+      background-color: rgb(31, 4, 53);
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+    </style>
+  <body>
+    <h1>Level A Demonstration</h1>
+    <img src="USYD.jpg" alt="my school";>
+
+    <header>
+        <p>This is a demonstration or level A learning</p>
+    </header>
+
+    <ul>
+      <li style="color:red;">Red</li>
+      <li style="color:blue;">Blue</li>
+      <li style="color:Green;">Green</li>
+    </ul>
+
+    <p>The source for self-learning at level A: W3School, YouTube</p>
+
+
+    <p>Visit W3School here: <a href="https://www.w3schools.com/">W3School</a></p>
+
+    <footer>
+        <p>Thanks</p>
+    </footer>
+  </body>
+</html>
+\end{verbatim}
+
+\newline
+
+If you do include screengrabs to show what you have done then these should be annotated to explain what it is showing and what the application does.
+
+
+%=============================================================================
+
+\newpage
+\section{Level B: Basic Application}
+
+Whilst level A is about doing something simple with the topic to just show that you have started to be able to use the tool or technology, level B is about doing something practical that might actually be useful.
+
+\subsection{Level B Demonstration}
+
+This is a short description of the application that you have developed in order to demonstration your understanding. (50-100 words).
+\newline
+\newline
+I used Google Font this time to make the webpage look better. By clicking the button on main page, it will jump to another page, which allows user to play a game. This game is created by using JavaScript, and the rule is guessing a number between 0 and 100 in 10 times. Each time there is a info about whether the guessing is correct, lower than correct number, or higher than correct number.
+\newline
+\newline
+\subsection{Application artifacts}
+
+Include here a description of what you actually created (what does it do? How does it work? How did you create it?). Include any code or other related artefacts that you created (these should also be included in your github repository).
+\newline
+\newline
+This application is a practice for both HTML, CSS, and JavaScript. For CSS style, I learnt it by looking examples online and used Google Font to improve the appearance of web page. A user can input name and gender on the main page to get access to the game. The game was created by using JavaScript. It get submitted message from HTML element, validate inputs and decide the next game state. After the game end, it can be reset by clicking reset button
+\newline
+\newline
+HTML:
+\newline
+\begin{verbatim}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">Level B Demo</a>
+      </div>
+    </div>
+  </nav>
+  <div class="img"></div>
+
+  
+  <div class="center">
+    <div class="title" id="title">Click here to play guess number game</div><br><br>
+    <form id="form">
+        <label for="fname" style="color:white;">Name</label>
+        <input type= "text" id="name" name="name">&nbsp&nbsp
+        <label for="gender" style="color:white;">Gender</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">female</option>
+        </select><br><br>
+        <input type = "button" onclick="showName()" value="submit">
+        <span id="show"></span>
+    </form>
+    <div class="btns">
+      <button id="guessButton" hidden onclick="window.location.href='guess number.html';">Guess Game</button>
+    </div>
+  </div>
+</body>
+<script>
+    function showName(e){
+    var name= document.getElementById("name").value;
+    var gender = document.getElementById("gender").value;
+    if (name != "" && gender != "") {
+        if (gender == "Male") {
+            document.getElementById("title").innerHTML = "Hello, Mr." + name + ", Click here to play guess number game";
+        }
+        else {
+            document.getElementById("title").innerHTML = "Hello, Ms." + name + ", Click here to play guess number game";
+        }
+        document.getElementById("guessButton").removeAttribute("hidden");
+        document.getElementById("form").hidden = true;
+    } 
+}
+</script>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Number Guessing</title>
+    </head>
+    
+  <h1>Number Guessing Game</h1>
+  <p>Guess a number between 0 and 100(inclusive). You have 10 chances to guess the number.</p>
+  <p>Each time you will be notified whether your guess is low or high.</p>
+
+  <header>
+    <div class="form">
+      <label for="guessField">Enter a guess: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Submit guess" class="guessSubmit" onclick="checkGuess();">
+    </div>
+  </header>
+    <div id="result">
+      <p id="prevGuess"></p>
+      <p id="lastResult"></p>
+      <p id="lowOrHi"></p>
+      <button id="reset" onclick="reset();">Reset</button>
+    </div>
+
+</html> 
+
+\end{verbatim}
+\newline
+\newline
+JavaScript:
+\newline
+\begin{verbatim}
+var number = Math.floor(Math.random() * 101);
+var guessCount = 0;
+
+function checkGuess() {
+    if (isNaN(guessField.value) || guessField.value == " " || guessField.value == "") {
+        document.getElementById("lastResult").innerHTML = 'Invalid input, please input a number';
+        lastResult.style.backgroundColor = 'red';
+        return
+    }
+    var userGuess = Number(guessField.value);
+
+    document.getElementById("prevGuess").innerHTML = 'Previous Guess: ' + userGuess + ' ';
+
+    if (guessCount >= 10) {
+        document.getElementById("lastResult").innerHTML = 'GAME OVER!';
+        lastResult.textContent = 'GAME OVER! Please reset the game.';
+    } else if (userGuess === number) {
+        document.getElementById("lastResult").innerHTML = 'Congratulations! You got it right!';
+        lastResult.style.backgroundColor = 'green';
+        document.getElementById("lowOrHi").innerHTML = ""
+
+    } else {
+        document.getElementById("lastResult").innerHTML = "Wrong!"
+        lastResult.style.backgroundColor = 'red';
+        
+        if(userGuess < number) {
+            document.getElementById("lowOrHi").innerHTML = "low!"
+        } else if(userGuess > number) {
+            document.getElementById("lowOrHi").innerHTML = "high!"
+        }
+    }
+    guessCount++;
+    guessField.value = '';
+    guessField.focus();
+}
+
+function reset(){
+    number = Math.floor(Math.random() * 101);
+    guessCount = 0;
+    document.getElementById('prevGuess').innerHTML="";
+    document.getElementById('lastResult').innerHTML="";
+    document.getElementById('lowOrHi').innerHTML="";
+};
+\end{verbatim}
+
+\newline
+\newline
+CSS:
+\newline
+\begin{verbatim}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: Comic Sans MS;
+   }
+
+nav{
+  position: fixed;
+  background: #011823;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+
+.img{
+  background: url('landscape.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: rgb(248, 240, 240);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid rgb(16, 4, 37);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+header {
+    background-color: rgb(27, 6, 64);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+footer {
+    background-color: rgb(31, 4, 53);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+\end{verbatim}
+
+
+If you do include screengrabs to show what you have done then these should be annotated to explain what it is showing and what the application does.
+
+
+%=============================================================================
+
+\newpage
+\section{Level C: Deeper Understanding}
+
+Level C focuses on showing that you have actually understood the tool or technology at a relatively advanced level. You will need to compare it to alternatives, identifying key strengths and weaknesses, and the areas where this tool is most effective. 
+
+\subsection{Strengths}
+What are the key strengths of the item you have learnt? (50-100 words)
+
+\subsection{Weaknesses}
+What are the key weaknesses of the item you have learnt? (50-100 words)
+
+\subsection{Usefulness}
+Describe one scenario under which you believe the topic you have learnt could be useful. (50-100 words)
+
+\subsection{Key Question 1}
+Note: This question is in the table in the ‘Self Learning: List of Topics’ page on Canvas. (50-100 words)
+
+\subsection{Key Question 2}
+Note: This question is in the table in the ‘Self Learning: List of Topics’ page on Canvas. (50-100 words)
+
+
+%=============================================================================
+
+\newpage
+\section{Level D: Evolution of skills}
+\vspace{5mm}
+\subsection{Level D Demonstration}
+
+This is a short description of the application that you have developed. (50-100 words).
+\textit{{\bf IMPORTANT:} You might wish to submit this as part of an earlier submission in order to obtain feedback as to whether this is likely to be acceptable for level D.}
+
+\subsection{Application artifacts}
+
+Include here a description of what you actually created (what does it do? How does it work? How did you create it?). Include any code or other related artefacts that you created (these should also be included in your github repository).
+
+If you do include screengrabs to show what you have done then these should be annotated to explain what it is showing and what the application does.
+
+\subsection{Alternative tools/technologies}
+Identify 2 alternative tools/technologies that can be used instead of the one you studied for your topic. (e.g. if your topic was Python, then you might identify Java and Golang)
+\subsection{Comparative Analysis}
+Describe situations in which both your topic and each of the identified alternatives would be preferred over the others (100-200 words).
+
+
+
+%=============================================================================
+
+\newpage
+
+\bibliographystyle{ieeetran}
+\bibliography{main}
+
+\end{document}
+\end{report}
